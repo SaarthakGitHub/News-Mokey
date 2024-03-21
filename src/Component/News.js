@@ -5,7 +5,6 @@ import Spinner from "./Spinner";
 import PropTypes from 'prop-types';
 
 export class News extends Component { 
-  // API_KEY = "5452378c412843aabacf97cf45327e7f";
   API_KEY = process.env.API_KEY;
   static defaultPropTypes = {
     country: "in",
